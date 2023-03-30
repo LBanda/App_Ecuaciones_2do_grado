@@ -8,7 +8,11 @@ class VM : ViewModel(){
 
     private val modelo = Modelo()
 
-    val a = MutableLiveData<Double>(0.0)
-    val b = MutableLiveData<Double>(0.0)
-    val c = MutableLiveData<Double>(0.0)
+    val x1 = MutableLiveData<Double>(0.0)
+    val x2 = MutableLiveData<Double>(0.0)
+
+    fun resolver(a: Double, b:Double, c:Double){
+        x1.value = modelo.solveEquation(a, b, c)
+        x2.value = modelo.solveEquation(a, b, c)
+    }
 }

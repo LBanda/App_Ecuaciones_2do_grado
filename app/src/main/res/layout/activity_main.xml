@@ -132,4 +132,20 @@
         android:text="Raiz 2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnResolver" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Raiz 1"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="413dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Raiz 2"
+        tools:layout_editor_absoluteX="299dp"
+        tools:layout_editor_absoluteY="411dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
